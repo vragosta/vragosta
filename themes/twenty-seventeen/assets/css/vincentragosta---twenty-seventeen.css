@@ -1,3 +1,66 @@
-ul li {
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #2e2e2e;
+	z-index: 1300;
+	min-height: 60px;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
 	list-style: none;
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -5px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 11px;
+	zoom: 1;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	min-width: 93px;
+	line-height: 60px;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	font-weight: 600;
+	opacity: 0.75;
+	border-top: 2px solid;
+}
+
+nav ul li a.works {
+	border-color: #479edc;
+}
+
+nav ul li a.services {
+	border-color: #9dc832;
+}
+
+nav ul li a.about {
+	border-color: #ea5050;
+}
+
+nav ul li a.blog {
+	border-color: #bd6bb6;
+}
+
+nav ul li a.contact {
+	border-color: #eca826;
+}
+
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:focus,
+nav ul li a:active:focus {
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
 }

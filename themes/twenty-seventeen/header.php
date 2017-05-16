@@ -17,11 +17,11 @@
 	<body <?php body_class(); ?>>
 		<nav>
 			<ul>
-				<li>Home</li>
-				<li>Works</li>
-				<li>Services</li>
-				<li>About</li>
-				<li>Blog</li>
-				<li>Contact</li>
+				<li><a href="#" class="home">Home</a></li>
+				<li><a href="#" class="works">Works</a></li>
+				<li><a href="#" class="services">Services</a></li>
+				<li><a href="#" class="about">About</a></li>
+				<li><a href="#" class="blog">Blog</a></li>
+				<li><a href="#" class="contact">Contact</a></li>
 			</ul>
 		</nav>
